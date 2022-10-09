@@ -42,6 +42,19 @@ img {
   color: inherit;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .container {
   width: 1360px;
   padding: 0 28px;
@@ -123,4 +136,30 @@ img {
   line-height: 1.56;
   color: var(--text-color-secondary);
   background-color: var(--color-brand);
+}
+
+.services {
+  padding-top: 40px;
+  padding-bottom: 19px;
+}
+.services-list {
+  display: flex;
+  column-gap: 71px;
+  text-align: center;
+}
+
+.services-item {
+  width: calc((100% - 142px) / 3);
+}
+
+.servise-title {
+  margin-bottom: 16px;
+
+  font-size: 20px;
+  line-height: 1.65;
+}
+
+.services-text {
+  font-size: 18px;
+  line-height: 1.56;
 }
