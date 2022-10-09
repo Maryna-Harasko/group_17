@@ -124,3 +124,42 @@ img {
   color: var(--text-color-secondary);
   background-color: var(--color-brand);
 }
+
+/* business-cases styles */
+
+.business-cases {
+  padding-top: 50px;
+  padding-bottom: 48px;
+  text-align: center;
+}
+
+.business-cases-descr {
+  font-size: 20px;
+  line-height: 1.65;
+  margin-bottom: 15px;
+}
+
+.business-cases-title {
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+  margin-bottom: 34px;
+}
+
+.business-cases-text {
+  font-size: 18px;
+  line-height: 1.56;
+  margin-bottom: 39px;
+}
+
+.business-cases-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 7px 8px;
+}
+
+.business-cases-item {
+  width: 320px;
+  height: 214px;
+}
