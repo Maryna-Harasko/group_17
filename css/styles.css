@@ -1,0 +1,87 @@
+:root {
+  --text-color-primary: #333333;
+  --text-color-secondary: #ffffff;
+  --color-brand: #28a745;
+  --background-color-primary: #ffffff;
+  --background-color-blog: #0284d0;
+  --background-color-footer: #333333;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: var(--text-color-primary);
+  background-color: var(--background-color-primary);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 1360px;
+  padding: 0 28px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* header styles */
+
+.header {
+  background-color: var(--background-color-footer);
+}
+
+.nav-pages {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logotype {
+  font-size: 35px;
+  line-height: 1.21;
+  color: var(--text-color-secondary);
+}
+
+.logo-piece {
+  color: var(--color-brand);
+}
+
+.nav-pages-list {
+  display: flex;
+  column-gap: 37px;
+}
+
+.nav-page-item {
+  font-size: 18px;
+  line-height: 1.56;
+  color: var(--text-color-secondary);
+}
+
+.nav-page-link {
+  display: block;
+  padding: 21px 0;
+}
