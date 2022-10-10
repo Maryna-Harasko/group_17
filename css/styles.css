@@ -163,3 +163,41 @@ img {
   font-size: 18px;
   line-height: 1.56;
 }
+
+/* section №5 Blog */
+
+.revers {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 0;
+}
+.blog-desc {
+  background-color: var(--background-color-blog);
+  color: var(--text-color-secondary);
+  padding: 112px 44px 113px 30px;
+}
+.blog-subtitle {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 5px;
+}
+.blog-title {
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+  text-transform: capitalize;
+  margin-bottom: 26px;
+}
+.blog-text {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 28px;
+}
+.blog-button {
+  font-size: 18px;
+  line-height: 1.5;
+  text-transform: capitalize;
+  padding: 11px 31px 10px 42px;
+  border: 1px solid var(--background-color-primary);
+  border-radius: 5px;
+}
