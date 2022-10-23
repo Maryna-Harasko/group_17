@@ -174,7 +174,7 @@ img {
 
 .business-cases-item {
   width: 320px;
-  height: 214px;  
+  height: 214px;
 }
 
 .services {
@@ -199,6 +199,62 @@ img {
 }
 
 .services-text {
+  font-size: 18px;
+  line-height: 1.56;
+}
+
+/* Team sections */
+
+.team {
+  padding-top: 49px;
+  padding-bottom: 59px;
+  text-align: center;
+}
+
+.team-subtitle {
+  margin-bottom: 16px;
+
+  font-size: 20px;
+  line-height: 1.65;
+}
+
+.team-title {
+  margin-bottom: 34px;
+
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+}
+
+.team-description {
+  margin-bottom: 45px;
+
+  font-size: 18px;
+  line-height: 1.56;
+}
+
+.team-list {
+  display: flex;
+  column-gap: 15px;
+}
+
+.team-item {
+  width: calc((100% - 30px) / 3);
+}
+
+.teammates {
+  padding-top: 13px;
+  padding-bottom: 57px;
+}
+
+.teammate-name {
+  margin-bottom: 12px;
+
+  font-size: 25px;
+  line-height: 1.28;
+}
+
+.teammate-position {
   font-size: 18px;
   line-height: 1.56;
 }
