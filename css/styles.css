@@ -138,6 +138,45 @@ img {
   background-color: var(--color-brand);
 }
 
+/* business-cases styles */
+
+.business-cases {
+  padding-top: 50px;
+  padding-bottom: 48px;
+  text-align: center;
+}
+
+.business-cases-descr {
+  font-size: 20px;
+  line-height: 1.65;
+  margin-bottom: 15px;
+}
+
+.business-cases-title {
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+  margin-bottom: 34px;
+}
+
+.business-cases-text {
+  font-size: 18px;
+  line-height: 1.56;
+  margin-bottom: 39px;
+}
+
+.business-cases-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 7px 8px;
+}
+
+.business-cases-item {
+  width: 320px;
+  height: 214px;
+}
+
 .services {
   padding-top: 40px;
   padding-bottom: 19px;
@@ -200,4 +239,60 @@ img {
   padding: 11px 31px 10px 42px;
   border: 1px solid var(--background-color-primary);
   border-radius: 5px;
+}
+
+/* Team sections */
+
+.team {
+  padding-top: 49px;
+  padding-bottom: 59px;
+  text-align: center;
+}
+
+.team-subtitle {
+  margin-bottom: 16px;
+
+  font-size: 20px;
+  line-height: 1.65;
+}
+
+.team-title {
+  margin-bottom: 34px;
+
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+}
+
+.team-description {
+  margin-bottom: 45px;
+
+  font-size: 18px;
+  line-height: 1.56;
+}
+
+.team-list {
+  display: flex;
+  column-gap: 15px;
+}
+
+.team-item {
+  width: calc((100% - 30px) / 3);
+}
+
+.teammates {
+  padding-top: 13px;
+  padding-bottom: 57px;
+}
+
+.teammate-name {
+  margin-bottom: 12px;
+
+  font-size: 25px;
+  line-height: 1.28;
+}
+
+.teammate-position {
+  font-size: 18px;
+  line-height: 1.56;
 }
