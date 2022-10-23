@@ -42,6 +42,19 @@ img {
   color: inherit;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .container {
   width: 1360px;
   padding: 0 28px;
@@ -123,6 +136,71 @@ img {
   line-height: 1.56;
   color: var(--text-color-secondary);
   background-color: var(--color-brand);
+}
+
+/* business-cases styles */
+
+.business-cases {
+  padding-top: 50px;
+  padding-bottom: 48px;
+  text-align: center;
+}
+
+.business-cases-descr {
+  font-size: 20px;
+  line-height: 1.65;
+  margin-bottom: 15px;
+}
+
+.business-cases-title {
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+  margin-bottom: 34px;
+}
+
+.business-cases-text {
+  font-size: 18px;
+  line-height: 1.56;
+  margin-bottom: 39px;
+}
+
+.business-cases-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 7px 8px;
+}
+
+.business-cases-item {
+  width: 320px;
+  height: 214px;
+}
+
+.services {
+  padding-top: 40px;
+  padding-bottom: 19px;
+}
+.services-list {
+  display: flex;
+  column-gap: 71px;
+  text-align: center;
+}
+
+.services-item {
+  width: calc((100% - 142px) / 3);
+}
+
+.servise-title {
+  margin-bottom: 16px;
+
+  font-size: 20px;
+  line-height: 1.65;
+}
+
+.services-text {
+  font-size: 18px;
+  line-height: 1.56;
 }
 
 /* Team sections */
