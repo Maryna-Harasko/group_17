@@ -205,6 +205,18 @@ img {
   line-height: 1.56;
 }
 
+/*solutions*/
+
+.solutions-container {
+  display: flex;
+  justify-content: center;
+}
+
+.solutions-desc {
+  background-color: var(--color-brand);
+  color: var(--text-color-secondary);
+  padding: 112px 44px 113px 30px;
+}
 /* section №5 Blog */
 
 .revers {
@@ -217,24 +229,28 @@ img {
   color: var(--text-color-secondary);
   padding: 112px 44px 113px 30px;
 }
-.blog-subtitle {
+.blog-subtitle,
+.solutions-subtitle {
   font-size: 20px;
   line-height: 1.5;
   margin-bottom: 5px;
 }
-.blog-title {
+.blog-title,
+.solutions-title {
   font-weight: 300;
   font-size: 38px;
   line-height: 1.26;
   text-transform: capitalize;
   margin-bottom: 26px;
 }
-.blog-text {
+.blog-text,
+.solutions-text {
   font-size: 18px;
   line-height: 1.5;
   margin-bottom: 28px;
 }
-.blog-button {
+.blog-button,
+.solutions-button {
   font-size: 18px;
   line-height: 1.5;
   text-transform: capitalize;
