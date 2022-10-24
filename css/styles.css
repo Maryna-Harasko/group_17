@@ -210,6 +210,7 @@ img {
 .solutions-container {
   display: flex;
   justify-content: center;
+  padding: 0;
 }
 
 .solutions-desc {
@@ -331,4 +332,28 @@ img {
   padding: 7px 0px 10px;
   font-size: 18px;
   line-height: 1.38;
+}
+
+/*Footer*/
+
+.footer {
+  background-color: var(--background-color-footer);
+}
+
+.social-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  column-gap: 25px;
+  color: #ffffff; /*убрать после добавления иконок  и буквы "а" в ссылках*/
+}
+
+.footer-text {
+  padding-bottom: 16px;
+  font-size: 18px;
+  line-height: 1.56;
+  text-align: center;
+  color: var(--text-color-secondary);
 }
