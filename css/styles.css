@@ -192,8 +192,9 @@ img {
   width: calc((100% - 142px) / 3);
 }
 
-.servise-title {
+.services-title {
   margin-bottom: 16px;
+  font-weight: 400;
 
   font-size: 20px;
   line-height: 1.65;
