@@ -65,8 +65,20 @@ img {
 
 /* header styles */
 
+.wrapper {
+  position: relative;
+}
+
 .header {
-  background-color: var(--background-color-footer);
+  position: fixed;
+  min-height: 70px;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.active {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .nav-pages {
