@@ -10,7 +10,7 @@
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   color: var(--text-color-primary);
   background-color: var(--background-color-primary);
@@ -299,6 +299,11 @@ img {
   width: calc((100% - 30px) / 3);
 }
 
+.team-item:hover .network-wrapper {
+  opacity: 1;
+  cursor: pointer;
+}
+
 .teammates {
   padding-top: 13px;
   padding-bottom: 57px;
@@ -314,6 +319,43 @@ img {
 .teammate-position {
   font-size: 18px;
   line-height: 1.56;
+}
+
+.network-thumb {
+  position: relative;
+}
+
+.network-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  opacity: 0;
+  pointer-events: none;
+
+  transition: opacity 250ms linear;
+}
+
+.network {
+  display: flex;
+  justify-content: center;
+  column-gap: 25px;
+}
+
+.network-link {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  /* color: var(--text-color-secondary); */
+}
+
+.network-icon {
+  fill: var(--text-color-secondary);
+}
+
+.network-link:hover .network-icon {
+  fill: var(--color-brand);
 }
 
 .callback-items {
