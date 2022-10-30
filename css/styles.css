@@ -76,6 +76,8 @@ img {
       var(--background-gradient-wrapper)
     ),
     url('../images/background-wrapper.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .header {
