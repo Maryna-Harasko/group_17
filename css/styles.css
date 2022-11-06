@@ -230,6 +230,25 @@ img {
   width: calc((100% - 142px) / 3);
 }
 
+.icon-img {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  width: 67px;
+  height: 67px;
+  fill: var(--background-color-primary);
+  background-color: var(--color-brand);
+  border-radius: 50%;
+}
+
+.icon-services {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .services-title {
   margin-bottom: 16px;
   font-weight: 400;
@@ -239,8 +258,12 @@ img {
 }
 
 .services-text {
+  width: 362px;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 18px;
   line-height: 1.56;
+  text-align: center;
 }
 
 /* Solutions styles*/
